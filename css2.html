@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css</title>
+</head>
+<style type="text/css">
+	img.a{
+		float: right;
+	}
+	img.b{
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		opacity: 0.5;
+  		filter: alpha(opacity=50);
+	}
+	img:hover {
+  		opacity: 0.5;
+  		filter: alpha(opacity=10); /* For IE8 and earlier */
+	}
+	.nav {
+  		background-color: yellow; 
+  		list-style-type: none;
+  		text-align: center;
+  		margin: 0;
+  		padding: 0;
+	}
+
+	.nav li {
+  		display: inline-block;
+  		font-size: 20px;
+  		padding: 20px;
+	}
+	.center {
+  		margin: auto;
+  		text-align: center;
+  		width: 60%;
+  		border: 3px solid #73AD21;
+  		padding: 10px;
+	}	
+	/* unvisited link */
+	a:link {
+  		color: red;
+	}
+
+	/* visited link */
+	a:visited {
+  		color: green;
+	}	
+
+	/* mouse over link */
+	a:hover {
+  		color: red;
+	}
+
+	/* selected link */
+	a:active {
+  		color: blue;
+	}	
+	p::first-line {
+  		color: #ff0000;
+  		font-variant: small-caps;
+	}
+</style>
+<body>
+	<ul class="nav">
+  		<li><a href="#home">Home</a></li>
+  		<li><a href="#about">About Us</a></li>
+  		<li><a href="#clients">Our Clients</a></li>  
+  		<li><a href="#contact">Contact Us</a></li>
+	</ul><br>
+	<img class="a" src="image.jpeg">
+	<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor</p>
+	<img class="b" src="workplace.jpg" width="250" height="300">
+	<p> vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
+	</p><br><br>
+
+	<div class="center">
+  		<b>Note: </b>This div element is centered.
+   	</div>
+   	<center><a href="https://google.com">Link</a></center>
+
+	
+
+</body>
+</html>

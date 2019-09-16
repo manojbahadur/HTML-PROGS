@@ -1,0 +1,136 @@
+<!DOCTYPE hmtl>
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<title>CSS</title>
+	<style type="text/css">
+	/*	*{
+			color: black;
+			text-align: center;
+		}*/
+		/* unvisited link */
+		a:link, a:visited {
+  			background-color: #f44336;
+  			color: white;
+  			padding: 14px 25px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+		}
+
+		a:hover, a:active {
+  			background-color: red;
+		}			
+		a:link {
+		  color: red;
+		}
+
+		/* visited link */
+		a:visited {
+		  color: green;
+		}
+
+		/* mouse over link */
+		a:hover {
+		  color: hotpink;
+		}
+
+		/* selected link */
+		a:active {
+		  color: blue;
+		}
+		a:hover  {
+ 			 text-decoration: underline;
+		}
+		p{
+			color: blue;
+			text-align: center;
+			text-indent: 50px;
+			font-family: "Times New Roman", Times, serif;
+			font-weight: bold;
+		}
+		#a{
+			color: red;
+			font-size: 30px;
+			text-align: center;
+			border: 2px solid Tomato;
+			border-radius: 20px;
+			text-transform: uppercase;
+		}
+		.left{
+			color: DodgerBlue;
+			font-size: 20px;
+			text-align: left;
+			text-indent: 50px;
+		}
+		.clr{
+			color: navy;
+			font-size: 30px;
+			border: 2px solid Violet;
+			border-radius: 40px
+			text-transform: uppercase;
+		}
+		body{
+			background-image: url("image.jpeg"); 
+			background-repeat: no-repeat;
+			background-position: right top;
+  			margin-right: 200px;
+			background-attachment: fixed;
+		}
+		div {
+  			border: 1px solid black;
+  			margin: 25px 50px 75px 100px;
+  			background-color: lightblue;
+		}
+		div.ex1 {
+  			width: 300px;
+  			background-color: yellow;
+		}
+		div.ex2 {
+  			background-color: lightgrey;
+  			width: 300px;
+  			border: 10px solid green;
+  			padding: 50px;
+  			margin: 100px;
+  			outline: #4CAF50 solid 5px;
+  			font-style: italic;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="a">
+		CSS Comments
+	</h1>
+	<p>
+		Comments are used to explain the code, and may help when you edit the source code at a later date. Comments are ignored by browsers.
+	</p>
+	<h1 class="clr">
+		The CSS class Selector
+	</h1>
+	<p class="left">
+		The class selector selects HTML elements with a specific class attribute. To select elements with a specific class, write a period (.) character, followed by the class name. 
+	</p>
+	<p rel="stylesheet" type="text/css" href="css_attachment.css">
+		External CSS
+		With an external style sheet, you can change the look of an entire website by changing just one file! Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+	</p>
+	<div>
+		To shorten the code, it is possible to specify all the margin properties in one property. The margin property is a shorthand property for the following individual margin properties:
+	</div>
+	<div class="ex1">This div is 300px wide.</div>
+	<div class="ex2">This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	<p>Some Font Awesome icons:</p>
+	<i class="fas fa-cloud"></i>
+	<i class="fas fa-heart"></i>
+	<i class="fas fa-car"></i>
+	<i class="fas fa-file"></i>
+	<i class="fas fa-bars"></i><br>
+	<center>
+	<a href="https://www.youtube.com/">Youtube.com</a>
+	</center>
+	<center>
+		<a href="https://www.youtube.com/">Youtube.com</a>
+	</center>
+</body>
+</html>
